@@ -51,6 +51,7 @@
   color: #172C49;
   min-height: 350px;
   border-radius: 10px;
+  background-color: #fff;
 }
 
 .actionTakeCompleteDialog {
@@ -66,6 +67,7 @@
   color: #454F63;
   border-radius: 10px;
   font-size: 17px;
+  background-color: #fff;
 }
 
 
