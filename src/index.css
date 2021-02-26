@@ -1,13 +1,39 @@
-body {
+html, body, #root {
+  height: 100%;
+  width: 100%;
+  font-size: 15px;
+  background-color: #EBECEF;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Open Sans', Arial, Helvetica;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
 }
+
+#root {
+  border-left: 3rem solid #172C49;
+  border-top: 3rem solid #172C49;
+}
+
+#mapid {
+  height: 300px;
+}
+
+.header {
+  padding: 2rem 0 1rem 1rem;
+  color: #172C49;
+  font-weight: bold;
+  font-size: x-large;
+  text-align: initial;
+}
+.column-title {
+  font-weight: bold;
+  color: #172C49;
+}
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+@import './assets/main.css'

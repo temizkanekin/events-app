@@ -1,0 +1,110 @@
+.rightPanelContent {
+  padding: 1rem;
+  margin: .5rem auto .5rem auto;
+  background-color: #fff;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+  max-height: calc(100% - 100px);
+}
+
+.rightPanelButton{
+  padding: .5rem;
+  outline: none !important;
+  color: #454f63;
+  font-weight: bold;
+  transition: .2s ease all;
+  border-bottom: 4px solid transparent;
+  display: flex;
+  align-items: center;
+}
+
+.rightPanelButtonActive {
+  color: #172C49;
+  border-bottom: 4px solid #3ba935;
+}
+
+.actionDialogItem {
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: #f4f4f4;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+.actionDialogItemActive {
+  color: #fff;
+  background-color: #454F63;
+}
+
+.actionDialogItem:hover {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.actionTakeProgressDialog {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  min-width: 500px;
+  color: #172C49;
+  min-height: 350px;
+  border-radius: 10px;
+}
+
+.actionTakeCompleteDialog {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  min-width: 500px;
+  min-height: 350px;
+  color: #454F63;
+  border-radius: 10px;
+  font-size: 17px;
+}
+
+
+.numberCircle {
+  border-radius: 50%;
+  padding: 4px;
+  margin-right: 4px;
+  background: #172C49;
+  border: 1px solid #172C49;
+  color: #fff;
+  text-align: center;
+
+  font: 10px Arial, sans-serif;
+  font-weight: bold;
+}
+
+.loader {
+  border: 10px solid #f3f3f3;
+  border-top: 10px solid #3DA836; 
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  animation: spin 2s linear infinite;
+  position: absolute;
+  margin: auto;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+@media (max-width: 640px) {
+  .actionTakeProgressDialog {
+    width: 100%;
+    min-width: unset;
+  }
+  .actionTakeCompleteDialog {
+    width: 100%;
+    min-width: unset;
+  }
+}
