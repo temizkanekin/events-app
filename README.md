@@ -13,7 +13,6 @@ https://nifty-ride-c50c1c.netlify.app/
 - You can see the location information in _LOCATION_ section for each data (map is re-rendering immediately when center changes)
 - You can see the media information in _MEDIA_ section for each data. If the media is an image, you can click on image to see image in separate dialog.
 - App is 100vh total, you can scroll in _EVENTS_/_EVENT DETAILS_ section.
-- All of the bonus features are implemented.
 - App has mobile responsiveness.
 
 
